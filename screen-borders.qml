@@ -30,11 +30,6 @@ Item
         visible: true
         width: Screen.width
         height: border_thickness
-
-        Rectangle {
-            anchors.fill: parent
-            color: border_fill_color
-        }
     }
 
     Window {
@@ -45,11 +40,6 @@ Item
         visible: true
         width: Screen.width
         height: border_thickness
-
-        Rectangle {
-            anchors.fill: parent
-            color: border_fill_color
-        }
     }
 
     Window {
@@ -60,11 +50,6 @@ Item
         visible: true
         width: border_thickness
         height: Screen.height
-
-        Rectangle {
-            anchors.fill: parent
-            color: border_fill_color
-        }
     }
 
     Window {
@@ -75,11 +60,6 @@ Item
         visible: true
         width: border_thickness
         height: Screen.height
-
-        Rectangle {
-            anchors.fill: parent
-            color: border_fill_color
-        }
     }
 }
 
