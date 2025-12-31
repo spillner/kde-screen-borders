@@ -2,6 +2,8 @@
  *   SPDX-FileCopyrightText: 2025 Brent Spillner <s p i l l n e r @ acm.org>
  *
  *   SPDX-License-Identifier: BSD
+ *
+ *   Use this file to generate a single solid-color border around the desktop, e.g. for Sinden light gun tracking.
  */
 
 import QtQuick
@@ -10,7 +12,7 @@ import org.kde.layershell 1.0 as LayerShell
 Item
 {
     property color border_fill_color: "white"
-    property int border_thickness: 16
+    property int border_thickness: 24
 
     Text {
         width: 400
