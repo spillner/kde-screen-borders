@@ -14,10 +14,10 @@ Item
 
     Text {
         width: 400
-	height: 200
+        height: 200
         anchors.centerIn: parent
         text: "Minimize me to see desktop, close me to exit screen_borders utility"
-	wrapMode: Text.WordWrap
+        wrapMode: Text.WordWrap
     }
 
     Window {
@@ -30,8 +30,8 @@ Item
         height: border_thickness
 
         Rectangle {
-	     anchors.fill: parent
-             color: border_fill_color
+            anchors.fill: parent
+            color: border_fill_color
         }
     }
 
@@ -45,8 +45,8 @@ Item
         height: border_thickness
 
         Rectangle {
-	     anchors.fill: parent
-             color: border_fill_color
+            anchors.fill: parent
+            color: border_fill_color
         }
     }
 
@@ -60,8 +60,8 @@ Item
         height: Screen.height
 
         Rectangle {
-	     anchors.fill: parent
-             color: border_fill_color
+            anchors.fill: parent
+            color: border_fill_color
         }
     }
 
@@ -75,8 +75,8 @@ Item
         height: Screen.height
 
         Rectangle {
-	     anchors.fill: parent
-             color: border_fill_color
+            anchors.fill: parent
+            color: border_fill_color
         }
     }
 }
